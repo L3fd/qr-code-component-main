@@ -35,15 +35,14 @@ body {
 
 .img-container {
 	height: auto;
-	padding-block: 1rem;
-	padding-inline: 1rem;
+	padding: 1rem;
 }
+
 .qr {
 	border-radius: 0.5rem;
 	height: 100%;
 	background-color: var(--sky-blue);
-	padding-block: 4rem;
-	padding-inline: 4rem;
+	padding: 2.5rem;
 }
 
 .text-section {
