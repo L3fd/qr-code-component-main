@@ -12,7 +12,6 @@ function fetchQRCode() {
 			img.src = URL.createObjectURL(blob);
 		})
 		.catch((error) => console.error(error));
-	console.log(img.src);
 }
 
 window.addEventListener("load", fetchQRCode);
