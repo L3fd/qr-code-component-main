@@ -25,3 +25,43 @@ body {
 	display: grid;
 	place-items: center;
 }
+
+.container {
+	width: 19rem;
+	height: 30rem;
+	background-color: var(--white);
+	border-radius: 1rem;
+}
+
+.img-container {
+	height: auto;
+	padding-block: 1rem;
+	padding-inline: 1rem;
+}
+.qr {
+	border-radius: 0.5rem;
+	height: 100%;
+	background-color: var(--sky-blue);
+}
+
+.text-section {
+	padding-inline: 0.875rem;
+}
+.heading {
+	text-align: center;
+	font-size: 1.25rem;
+	color: var(--dark-blue);
+	font-family: var(--ff-primary);
+	font-weight: 700;
+	max-width: 21ch;
+	margin: 0 0 auto;
+}
+.info {
+	text-align: center;
+	font-family: var(--ff-primary);
+	font-weight: 400;
+	color: var(--grayish-blue);
+	max-width: 30ch;
+	font-size: 1rem;
+	margin-top: 1.25rem;
+}
