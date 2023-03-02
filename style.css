@@ -42,6 +42,8 @@ body {
 	border-radius: 0.5rem;
 	height: 100%;
 	background-color: var(--sky-blue);
+	padding-block: 4rem;
+	padding-inline: 4rem;
 }
 
 .text-section {
